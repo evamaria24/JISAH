@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Psikologi</title>
+    <link rel="stylesheet" href="css/psikolog.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">Jiwa Sehat</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="https://wa.me/6285693612624">Hubungi Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ini adalah konten yang diganti -->
+    <div id="question-container">
+        <h1>Tes Psikologis</h1>
+        <div id="question">Pertanyaan 1: Apakah Anda merasa lebih suka bekerja sendiri atau dalam tim?</div>
+        <div id="options">
+            <button class="option" onclick="nextQuestion('jawaban1')">Bekerja Sendiri</button>
+            <button class="option" onclick="nextQuestion('jawaban2')">Dalam Tim</button>
+        </div>
+    </div>
+
+    <!-- Ini adalah div yang akan menampung hasil tes -->
+    <div id="result-container"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
